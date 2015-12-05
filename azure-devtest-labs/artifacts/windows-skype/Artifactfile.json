@@ -1,0 +1,16 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
+  "title": "Skype",
+  "description": "Installs Skype using the Chocolatey package manager.",
+  "tags": [
+    "Windows",
+    "Skype"
+    
+  ],
+  "iconUri": "https://chocolatey.org/content/packageimages/skype.7.15.0.102.png",
+  "targetOsType": "Windows",
+  "runCommand": {
+    "commandToExecute": "powershell.exe -executionpolicy bypass -File startChocolatey.ps1 -PackageList skype"
+
+  }
+}
