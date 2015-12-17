@@ -1,7 +1,6 @@
 workflow Delete-Empty-Resource-Groups
 {
-	#testing changes
-	
+	#git-retungis
 	#The name of the Automation Credential Asset this runbook will use to authenticate to Azure.
     $CredentialAssetName = "DefaultAzureCredential";
 	
