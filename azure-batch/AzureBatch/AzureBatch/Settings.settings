@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AzureBatch" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BatchURL" Type="System.String" Scope="User">
+      <Value Profile="(Default)">YOU_ACCOUNT_URL</Value>
+    </Setting>
+    <Setting Name="AccountName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">YOUR_ACCOUNT_NAME</Value>
+    </Setting>
+    <Setting Name="AccountKey" Type="System.String" Scope="User">
+      <Value Profile="(Default)">YOUR_ACCOUNT_KEY</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
