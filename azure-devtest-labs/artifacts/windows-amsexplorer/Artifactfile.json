@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Azure/azure-devtestlab/master/schemas/2015-01-01/dtlArtifacts.json",
+  "title": "Azure Media Services Explorer",
+  "description": "Azure Media Services Explorer is a tool for Windows that does upload, download, process, encode, package, and stream assets and live channels with Azure Media Services.",
+  "tags": [
+    "Windows",
+    "Azure Media Services Explorer"    
+  ],
+  "iconUri": "https://chocolatey.org/content/packageimages/amsexplorer.3.28.0.0.png",
+  "targetOsType": "Windows",
+  "runCommand": {
+    "commandToExecute": "powershell.exe -executionpolicy bypass -File startChocolatey.ps1 -PackageList amsexplorer"
+
+  }
+}
